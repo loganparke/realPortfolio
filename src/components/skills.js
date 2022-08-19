@@ -28,76 +28,76 @@ const Skills = () => {
         <div className='flex flex-wrap h-4/5 w-4/5 justify-center font-bold'>
           <div className='m-5'>
             <p>HTML</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={html}></img>
+            <img alt='a' className='object-scale-down h-52 p-2 mb-3' src={html}></img>
           </div>
           <div className='m-5'>
             <p>CSS</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={css}></img>
+            <img alt='b' className='object-scale-down h-52 p-2 mb-3' src={css}></img>
           </div>
           <div className='m-5'>
             <p>Tailwind</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={tailwind}></img>
+            <img alt='c' className='object-scale-down h-52 p-2 mb-3' src={tailwind}></img>
           </div>
           <div className='m-5'>
             <p>Javascript</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={js}></img>
+            <img alt='d' className='object-scale-down h-52 p-2 mb-3' src={js}></img>
           </div>
           <div className='m-5'>
             <p>React</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={rIcon}></img>
+            <img alt='f' className='object-scale-down h-52 p-2 mb-3' src={rIcon}></img>
           </div>
           <div className='m-5'>
             <p>Redux</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={redux}></img>
+            <img alt='g' className='object-scale-down h-52 p-2 mb-3' src={redux}></img>
           </div>
           <div className='m-5'>
             <p>GraphQl</p>
-            <img className='gqlImg object-scale-down h-52 p-2 mb-3' src={graphQl}></img>
+            <img alt='GraphQl' className='gqlImg object-scale-down h-52 p-2 mb-3' src={graphQl}></img>
           </div>  
           <div className='m-5'>
             <p>Apollo</p>
-            <img className='gqlImg object-scale-down h-52 p-2 mb-3' src={apollo}></img>
+            <img alt='Apollo' className='gqlImg object-scale-down h-52 p-2 mb-3' src={apollo}></img>
           </div>
           <div className='m-5'>  
             <p>Node.JS</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={node}></img>
+            <img alt='Node' className='object-scale-down h-52 p-2 mb-3' src={node}></img>
           </div>
           <div className='m-5'>
             <p>Express.JS</p>
-            <img className='expImg object-scale-down h-52 p-2 mb-3' src={express}></img>
+            <img alt='Express' className='expImg object-scale-down h-52 p-2 mb-3' src={express}></img>
           </div>
           
           <div className='m-5'>
             <p>MongoDB</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={mongo}></img>
+            <img alt='MongoDB' className='object-scale-down h-52 p-2 mb-3' src={mongo}></img>
           </div>
           <div className='m-5'>
             <p>Mongoose</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={mongoose}></img>
+            <img alt='Mongoose' className='object-scale-down h-52 p-2 mb-3' src={mongoose}></img>
           </div>
           <div className='m-5'>
             <p>MySql</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={mysql}></img>
+            <img alt='vMySql' className='object-scale-down h-52 p-2 mb-3' src={mysql}></img>
           </div>
           <div className='mx-5'>
             <p>Sequelize</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={sequelize}></img>
+            <img alt='Sequelize' className='object-scale-down h-52 p-2 mb-3' src={sequelize}></img>
           </div>
           <div className='mx-5'>
             <p>Rest APIs</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={restAPI}></img>
+            <img alt='Rest' className='object-scale-down h-52 p-2 mb-3' src={restAPI}></img>
           </div>
           <div className='mx-5'>
             <p>Git</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={git}></img>
+            <img alt='Git' className='object-scale-down h-52 p-2 mb-3' src={git}></img>
           </div>
           <div className='mx-5'>
             <p>Stripe</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={stripe}></img>
+            <img alt='Stripe' className='object-scale-down h-52 p-2 mb-3' src={stripe}></img>
           </div>
           <div className='mx-5'>
             <p>JSON Web Token</p>
-            <img className='object-scale-down h-52 p-2 mb-3' src={jwt}></img>
+            <img alt='JSON' className='object-scale-down h-52 p-2 mb-3' src={jwt}></img>
           </div>
         </div>
       </div>

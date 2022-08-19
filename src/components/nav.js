@@ -1,15 +1,12 @@
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import { MdArrowForwardIos } from 'react-icons/md';
-import { MdArrowBackIos } from 'react-icons/md';
 
 const Nav = () => {
 
   const [activeNav, setActiveNav] = useState('Home');
-  const navRef = useRef();
-  const navBgRef = useRef();
 
-  const handleToggle = () => {
+
+  // const handleToggle = () => {
     // console.log(navRef);
     // if (activeNav === false){
     //   setActiveNav(true);
@@ -24,7 +21,7 @@ const Nav = () => {
     //   navBgRef.current.classList.toggle('navbgClosed');
     //   navBgRef.current.classList.toggle('navbgOpen');
     // }
-  }
+  // }
 
   return (
     <div className="relative z-50">
