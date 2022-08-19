@@ -4,7 +4,6 @@ import {
   Routes, 
   Route
 } from 'react-router-dom';
-import { Link } from "react-router-dom";
 import Nav from './components/nav';
 import Home from './components/home';
 import Contact from './components/contact';
@@ -18,7 +17,7 @@ function App() {
         <Nav />
         <div className='bg-white h-screen'>
           <Routes>
-            <Route default path='/realPortfolio' element={<Home />} />
+            <Route path='' element={<Home />} />
             <Route path='/Projects' element={<Projects />} />
             <Route path='/Skills' element={<Skills />} />
             <Route path='/Contact' element={<Contact />} />

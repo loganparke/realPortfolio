@@ -41,7 +41,7 @@ const Nav = () => {
         {/* <div ref={navRef} className="navigationClosed  justify-between flex flex-wrap">  */}
           <nav role="navigation" className='absolute flex w-full text-3xl font-bold justify-around pt-3'>
             <p className="opacity-0">h</p>
-            <Link className={activeNav === 'Home' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/realPortfolio" onClick={() => setActiveNav('Home')}>Home</Link>
+            <Link className={activeNav === 'Home' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="" onClick={() => setActiveNav('Home')}>Home</Link>
             <Link className={activeNav === 'Projects' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/Projects" onClick={() => setActiveNav('Projects')}>Projects</Link>
             <Link className={activeNav === 'Skills' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/Skills" onClick={() => setActiveNav('Skills')}>Skills</Link>
             <Link className={activeNav === 'Contact' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/Contact" onClick={() => setActiveNav('Contact')}>Contact Info & Links</Link>
