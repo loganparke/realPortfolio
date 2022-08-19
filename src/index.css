@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,147 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.home{
+  background-image: url('./assets/homeImages/meAgain.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home p {
+  /* text-shadow: 1px 1px 1px white; */
+}
+
+.homeIntro{
+  position: absolute;
+  top: 450px;
+  right: 12%;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+.homeImage {
+  border-radius: 15px;
+  width: 40%;
+}
+
+.navigationClosed {
+  display: flex;
+  flex-wrap: wrap;
+  width: 0px;
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  overflow: hidden;
+  font-size: x-large;
+  font-weight: 400;
+  transition: 1s ease-in-out;
+  color: #3d7c81;
+}
+.navigationOpen {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+  font-size: x-large;
+  font-weight: 400;
+  color: #3d7c81;
+}
+.textClass {
+  color: #117057;
+}
+.textClass2 {
+  color:white;
+}
+
+.navigationOpen nav {
+  width: 100%;
+  overflow: hidden;
+}
+.navigationClosed nav {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+}
+.navigationOpen p {
+  position: relative;
+  display: flex;
+  bottom: 0px;
+  width: 100%;
+  height: 40%;
+  align-items: flex-end;
+  justify-content:center;
+}
+.navigationClosed p {
+  display: none;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+.actualNav a {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  transition: .5s ease-in-out;
+}
+
+.actualNav a:hover {
+  background-color: #3d7c81;
+  color: white;
+  transition: .5s ease-in-out;
+}
+
+.navbgClosed {
+  position: absolute;
+  width: 0px;
+  height: 100vh;
+  background-color: #6b7280;
+  opacity: 30%;
+  transition: 1s ease-in-out;
+}
+.navbgOpen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6b7280;
+  opacity: 30%;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+}
+
+.contactBtn {
+  background-color: #1d84b5 ;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #3d7c81;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+} 
+
+.navUnderline{
+  border-bottom: 4px solid #3d7c81;
 }

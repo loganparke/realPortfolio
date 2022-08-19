@@ -28,11 +28,77 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.rightArrow { 
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 2%;
+  width: 50px;
+  height: 50px;
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.leftArrow {
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 2%;
+  width: 50px;
+  height: 50px;
+  font-size: 3rem;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: .3;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  width: 100%;
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.0);
+}
+
+.gqlImg {
+  border-radius: 50px;
+}
+
+.expImg {
+  border-radius: 100%;
+}
+
+.resumePic {
+  border-radius: 100%;
+}
+
+.emailPic {
+  border-radius: 100%;
+}
+.linkedInPic {
+  border-radius: 100%;
+}
+.githubPic{
+  background-color: white;
+  border-radius: 100%;
 }
