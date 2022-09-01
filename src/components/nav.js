@@ -39,7 +39,7 @@ const Nav = () => {
             handleToggle()
           }></div> */}
         {/* <div ref={navRef} className="navigationClosed  justify-between flex flex-wrap">  */}
-          <nav role="navigation" className='absolute flex w-full text-3xl font-bold justify-around pt-3'>
+          <nav role="navigation" className='absolute bg-white pb-3 flex w-full text-3xl font-bold justify-around pt-3'>
             <p className="opacity-0">h</p>
             <Link className={activeNav === 'Home' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/home" onClick={() => setActiveNav('Home')}>Home</Link>
             <Link className={activeNav === 'Projects' ? "hover-underline-animation navUnderline" : 'hover-underline-animation'} to="/Projects" onClick={() => setActiveNav('Projects')}>Projects</Link>
@@ -50,7 +50,6 @@ const Nav = () => {
           </nav>
         {/* </div> */}
     </div>
-    
   )
 }
 
