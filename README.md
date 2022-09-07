@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is my portfolio
+This is my portfolio: https://loganparke.github.io/realPortfolio/
 
 ## Available Scripts
 
